@@ -1,0 +1,85 @@
+#float_asuna{
+    font-size: 12px;
+    position: absolute;
+    font-color: #666;
+    color: rgb(98, 98, 98);
+    z-index: 999;
+    left: 62%;
+    top: -1000px;
+    width: 85px;
+    height: 152px;
+
+
+}
+#dialog_chat{
+    left: -195px;
+    line-height: 23px;
+    position: absolute;
+    text-align: left;
+    top: -10px;
+    width: 200px;
+    /*border: 1px solid red;*/
+    background-color: #ffffee;
+    /*padding-left: 2px;*/
+
+}
+#chat_top{
+    background: url("./img/chat_top.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: left;
+    height: 5px;
+    overflow: hidden;
+    width: 200px;
+}
+#chat_bottom {
+    background: url("./img/chat_bottom.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: left;
+    height: 6px;
+    width: 200px;
+}
+#dialog_chat_contents {
+    border-left: 1px solid #e87a73;
+    border-right: 1px solid #e87a73;
+    width: 200px;
+}
+#tempsaying{
+    /*border: 1px solid blue;*/
+    /*width: 1%;*/
+}
+#food_list li{
+    cursor: pointer;
+    list-style: none;
+    letter-spacing: 2px;
+    display: none;
+}
+#showmenu{
+    width: 100%;
+    text-align: left;
+    overflow: hidden;
+}
+#showmenu ul li{
+    float: left;
+    width:47%;
+    list-style: none;
+    cursor: pointer;
+}
+#getmenu {
+    background: url("./img/menu.jpg") no-repeat scroll right top rgba(0, 0, 0, 0);
+    cursor: pointer;
+    height: 16px;
+    margin: 0;
+    padding: 0;
+    width: 95%;
+}
+#callasuna{
+    position: fixed;
+    cursor: pointer;
+    top:245px;
+    left:20px;
+    text-align:center;
+    display: none;
+    color: #d43f3a;
+    width: 80px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
