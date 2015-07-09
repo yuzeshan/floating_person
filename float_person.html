@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>浮动小人</title>
+		<link rel="stylesheet" href="./main.css">
+	</head>
+	<body>
+		<div id="float_asuna" onfocus="this.blur();" >
+            <div id="asuna_pic"
+                 style="background:url(./img/saber.png) no-repeat scroll 50% 0% transparent; width:85px;height:152px;">
+
+            </div>
+            <div id="dialog_chat">
+                <div id="chat_top"></div>
+                <div id="dialog_chat_contents">
+                    <div id="dialog_chat_loading" style="display: none;"></div>
+                    <div id="tempsaying" style="display: block;">欢迎来到shanyuze的小站,我是您的小导游哦!</div>
+                    <div id="showmenu" style="display: none;">
+                        <ul>
+                            <li id="wccguide" class="wcc_mlist">网站导航</li>
+                            <li id="shownotice" class="wcc_mlist">显示公告</li>
+                            <li id="search_chat" class="wcc_mlist">技术搜索</li>
+                            <li id="foods" class="wcc_mlist">吃点零食</li>
+                            <li id="playmusic" class="wcc_mlist">弄点歌听</li>
+                            <li id="lifetime" class="wcc_mlist">生存时间</li>
+                            <li id="closeasuna" class="wcc_mlist">关闭Asuna</li>
+                        </ul>
+
+                    </div>
+                    <div id="food_list" style="display: none;">
+                        <ul>
+                            <li id="food1">咸梅干</li>
+                            <li id="food2">金坷垃</li>
+                            <li id="food3">三鹿</li>
+                            <li id="food4">辣条</li>
+                        </ul>
+                    </div>
+                    <embed id="play_widget" style="display: none;" src="http://www.xiami.com/widget/48965643_3373237,3373245,1771686953,1769872306,1771134603,1774323979,1773333685,1774038951,24001,1773886372,1773886372,388455,1772159168,74560,62188,1773430479,_200_93_FF8719_494949_1/multiPlayer.swf" type="application/x-shockwave-flash" width="200" height="93" wmode="opaque">
+
+                    </embed>
+                    <div>
+                    <ul id="asunasaying" style="display: none;"></ul>
+                    </div>
+                    <div id="getmenu" style="display: block;"></div>
+                </div>
+                <div id="chat_bottom"></div>
+            </div>
+        </div>
+        <div id="callasuna" >召唤Asuna</div>
+        <script src="jquery-1.11.1.min.js"></script>
+        <script src="browserDetect.js"></script>
+        <script src="./main.js"></script>
+		
+	</body>
+</html>
